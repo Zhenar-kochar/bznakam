@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For My Love</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Music Prompt Screen -->
+<div id="musicPrompt">
+    <h1>Before You Enter...</h1>
+    <p>Press play to set the mood 💖</p>
+    <button onclick="playMusic()">🎵 Play Music</button>
+</div>
+
+<!-- Landing Screen -->
+<div id="landing" style="display: none;">
+    <h1>Hey You ❤️</h1>
+    <p>Someone made this just for you.</p>
+    <button onclick="enterSite()">Enter</button>
+</div>
+
+<!-- Main Website Content -->
+<div id="mainContent" style="display: none;">
+    <header>
+        <h1>Bo Bznakaixom</h1>
+        <p>(Yes, that means you — don’t act surprised.)</p>
+    </header>
+
+    <section>
+        <h2>A Little Love Letter</h2>
+        <p>
+            We might not have been dating for that long,  
+            but trust me — I’ve been in love with you way before!  
+            <br><br>
+            Your eyes lit up my days even when we were just “friends.”  
+            Your smile meant everything then, and it still does — and always will.  
+            <br><br>
+            Your warmth? That’s all I need to survive.  
+            <br><br>
+            What we have is something rare.  
+            The most fun, the most playful, the most *us* kind of relationship — there’s nothing like it.  
+            <br><br>
+            You’re my girl.  
+            My Bzn.  
+            My haiwan.  
+            And yeah… my hot, gorgeous baby girl too. 
+        </p>
+    </section>
+
+    <section>
+        <h2>Our Favorite Photos</h2>
+        <div class="gallery">
+            <img src="pics/cutemoment.JPG" alt="Cute moment">
+            <img src="pics/laugh.JPG" alt="Laughing together">
+            <img src="pics/u.JPG" alt="Cat you">
+        </div>
+    </section>
+
+    <section>
+        <h2>Some Laughs, Some Memories</h2>
+        <div class="videos">
+            <video controls>
+                <source src="pics/vid.MP4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video controls>
+                <source src="pics\vid2.MP4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <section class="timeline">
+        <h2>Us, Through Time</h2>
+        <ul>
+            <li>The day you said yes! You were dying from nerves but trying so hard to hide it.</li>
+            <li>All the times you caught me staring — I was purposely making you angry just so you'd look at me like the cat on my phone wallpaper.</li>
+            <li>That time we were playing Tawla on A’s balcony while the sun was slowly disappearing.</li>
+            <li>The Bzn jokes.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <h2>One More Thing...</h2>
+        <p>I need a day alone with you. 😘</p>
+        <p>&copy; 2025 Zhenar. My heart rights reserved to you Lanya.</p>
+    </footer>
+</div>
+
+<!-- Background Music -->
+<audio id="bgMusic" loop>
+    <source src="pics\song.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
